@@ -1,0 +1,315 @@
+body {
+  position: relative;
+  width: 390px;
+  height: 844px;
+
+  background: #FAFCFB;
+}
+
+@font-face {
+  font-family: MPLUS1;
+  src: url('fonts/MPLUS1-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Epilogue;
+  src: url('fonts/Epilogue-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Manrope;
+  src: url('fonts/Manrope-Bold.ttf') format('truetype');
+}
+
+h {
+  position: absolute;
+  width: 334.45px;
+  height: 53px;
+  left: -20px;
+  top: 81px;
+
+  font-family: MPLUS1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+
+  text-align: center;
+  letter-spacing: 1.27185px;
+
+  color: #121212;
+}
+
+.air-title {
+  position: absolute;
+  width: 143px;
+  height: 38px;
+  left: 17px;
+  top: 167px;
+
+  background: #6C63FF;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.air-title-text {
+
+  position: absolute;
+  width: 76px;
+  height: 14.9px;
+  left: 51px;
+  top: 172px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #F0F0F0;
+}
+
+.air-section {
+  position: absolute;
+  width: 358px;
+  height: 108px;
+  left: 17px;
+  top: 197px;
+
+  filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.15));
+  background: #FFFFFF;
+  border-radius: 0px 10px 10px 10px;
+}
+
+#status-image {
+  position: absolute;
+  width: 69.37px;
+  height: 65.66px;
+  left: 14px;
+  top: 19px;
+
+  background: url(image.png);
+}
+
+#dust-value {
+  position: absolute;
+  width: 281px;
+  height: 28px;
+  left: 77px;
+  top: 19px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+
+  text-align: center;
+  letter-spacing: 1.27185px;
+
+  color: #121212;
+}
+
+#dust-description {
+  position: absolute;
+  width: 260px;
+  height: 40px;
+  left: 89px;
+  top: 55px;
+
+  font-family: MPLUS1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+
+  text-align: center;
+  letter-spacing: 1.27185px;
+
+  color: #121212;
+}
+
+.temp-title {
+  position: absolute;
+  width: 143px;
+  height: 38px;
+  left: 22px;
+  top: 317px;
+
+  background: #6C63FF;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.temp-title-text {
+  position: absolute;
+  width: 94px;
+  height: 20px;
+  left: 47px;
+  top: 324px;
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #F0F0F0;
+}
+
+.temp-section {
+  position: absolute;
+  width: 350px;
+  height: 75px;
+  left: 22px;
+  top: 351px;
+
+  background: #FFFFFF;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 10px 10px 10px;
+}
+
+#temp-image {
+  position: absolute;
+  width: 21.25px;
+  height: 36px;
+  left: 86.38px;
+  top: 19.5px;
+}
+
+#temp-value {
+  position: absolute;
+  width: 110px;
+  height: 0px;
+  left: 180px;
+  top: 40px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 0px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.second-section {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  left: 20px;
+  top: 450px;
+}
+
+.section-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.section-list li {
+  margin-right: 10px;
+}
+
+.lux-section {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+#lux-value {
+  position: absolute;
+  width: 100px;
+  height: 46px;
+  left: 35px;
+  top: 10px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+
+  text-align: center;
+
+  color: #121212;
+}
+
+.lux-text {
+  position: absolute;
+  width: 118px;
+  height: 46px;
+  left: 27px;
+  top: 56px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 46px;
+
+  text-align: center;
+
+  color: #8078FE;
+}
+
+.humidity-section {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  left: 180px;
+  top: 0px;
+
+  background: #FFFFFF;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+#humidity-value {
+  position: absolute;
+  width: 70px;
+  height: 46px;
+  left: 51px;
+  top: 10px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+
+  text-align: center;
+
+  color: #121212;
+}
+
+.humidity-text {
+  position: absolute;
+  width: 72px;
+  height: 46px;
+  left: 49px;
+  top: 56px;
+
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 46px;
+
+  text-align: center;
+
+  color: #8078FE;
+}
+
+.dog-image {
+  position: absolute;
+  width: 438px;
+  height: 202px;
+  left: -15px;
+  top: 584px;
+}

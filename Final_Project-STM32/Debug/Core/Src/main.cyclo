@@ -1,0 +1,16 @@
+main.c:69:6:ADC_Select_CH0	2
+main.c:83:6:ADC_Select_CH4	2
+main.c:96:6:microDelay	2
+main.c:117:6:Set_Pin_Output	1
+main.c:126:6:Set_Pin_Input	1
+main.c:137:9:DHT11_Start	5
+main.c:168:9:DHT11_Read	7
+main.c:193:6:Display	5
+main.c:218:5:main	2
+main.c:308:6:SystemClock_Config	3
+main.c:354:13:MX_ADC1_Init	4
+main.c:415:13:MX_TIM2_Init	6
+main.c:474:13:MX_USART1_UART_Init	2
+main.c:507:13:MX_USART2_UART_Init	2
+main.c:540:13:MX_GPIO_Init	1
+main.c:580:6:Error_Handler	1
