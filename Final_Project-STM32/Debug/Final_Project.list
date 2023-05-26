@@ -27,23 +27,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  000201dc  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0000e0ee  00000000  00000000  0002020c  2**0
+ 12 .debug_info   0000e066  00000000  00000000  0002020c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00001ce1  00000000  00000000  0002e2fa  2**0
+ 13 .debug_abbrev 00001ce1  00000000  00000000  0002e272  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000d70  00000000  00000000  0002ffe0  2**3
+ 14 .debug_aranges 00000d60  00000000  00000000  0002ff58  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00000cb8  00000000  00000000  00030d50  2**3
+ 15 .debug_ranges 00000ca8  00000000  00000000  00030cb8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  000182cb  00000000  00000000  00031a08  2**0
+ 16 .debug_macro  000182c7  00000000  00000000  00031960  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000ecf1  00000000  00000000  00049cd3  2**0
+ 17 .debug_line   0000ec9e  00000000  00000000  00049c27  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0009b0e4  00000000  00000000  000589c4  2**0
+ 18 .debug_str    0009b0c7  00000000  00000000  000588c5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  000f3aa8  2**0
+ 19 .comment      00000050  00000000  00000000  000f398c  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00004ac4  00000000  00000000  000f3af8  2**2
+ 20 .debug_frame  00004a7c  00000000  00000000  000f39dc  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1380,8 +1380,8 @@ void microDelay (uint16_t delay)
  800100c:	20000240 	.word	0x20000240
 
 08001010 <DHT11_Start>:
-}
-
+float lux = 0;
+char text[1000] = {0};
 /*********************************** DHT11 FUNCTIONS ********************************************/
 
 uint8_t DHT11_Start (void)

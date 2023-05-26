@@ -14,13 +14,13 @@
 SoftwareSerial mySerial =  SoftwareSerial(rxPin, txPin);
 
 //กำหนดข้อมูลเชื่อมต่อ WiFi
-const char* ssid      = <ssid>      //ต้องแก้ไข
-const char* password  = <password>;      //ต้องแก้ไข
+const char* ssid      = "Xiaomi 11 Lite 5G NE";     //ต้องแก้ไข
+const char* password  = "ef0bXHfGH7";    //ต้องแก้ไข
 //กำหนดข้อมูลเชื่อมต่อ NETPIE2020 นำ KEY ที่ได้จาก NETPIE มาใส่
 const char* mqtt_server = "broker.netpie.io";
-const char* client_id = <client_id>;//ต้องแก้ไข
-const char* token     = <token>;    //ต้องแก้ไข
-const char* secret    = <secret>;   //ต้องแก้ไข
+const char* client_id = "9142aafd-879f-486f-968b-680293252f98";//ต้องแก้ไข
+const char* token     = "bG15dSwp9SiTF1NBKfNYyTDF6QJsHWkw";    //ต้องแก้ไข
+const char* secret    = "4RZrT2!mQ8OPSOyLl49bb~V6WZPQHZuB";   //ต้องแก้ไข
 Adafruit_SHT31 sht31 = Adafruit_SHT31();
 WiFiClient espClient;
 PubSubClient client(espClient);
